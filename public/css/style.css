@@ -510,9 +510,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: relative;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
+.mb-40 {
+  margin-bottom: 10rem;
 }
 
 .mb-3 {
@@ -527,28 +526,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 2.5rem;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
 }
 
 .mb-1 {
   margin-bottom: 0.25rem;
-}
-
-.mb-36 {
-  margin-bottom: 9rem;
-}
-
-.mb-40 {
-  margin-bottom: 10rem;
 }
 
 .flex {
@@ -568,9 +551,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(14 165 233 / var(--tw-bg-opacity));
 }
 
-.bg-sky-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(125 211 252 / var(--tw-bg-opacity));
+.bg-skybg {
+  background-image: url('/assets/img/skybg.jpg');
 }
 
 .px-4 {
@@ -647,25 +629,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-@media (min-width: 640px) {
-  .sm\:inline-block {
-    display: inline-block;
-  }
-
-  .sm\:inline {
-    display: inline;
-  }
-
-  .sm\:text-center {
-    text-align: center;
-  }
-}
-
 @media (min-width: 768px) {
-  .md\:mb-44 {
-    margin-bottom: 11rem;
-  }
-
   .md\:mb-48 {
     margin-bottom: 12rem;
   }

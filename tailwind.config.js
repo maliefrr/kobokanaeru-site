@@ -15,6 +15,9 @@ module.exports = {
       screen: {
         "2xl": "1320px",
       },
+      backgroundImage: {
+        "skybg": "url('/assets/img/skybg.jpg')",
+      }
     },
   },
   plugins: [],
